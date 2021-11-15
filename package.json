@@ -1,0 +1,13 @@
+{
+  "name": "az_func",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "openpgp": "^4.10.9"
+  },
+  "devDependencies": {}
+}

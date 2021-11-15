@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "decryptedBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "public/test/{name}.csv",
+      "connection": "ampplatformci_STORAGE"
+    },
+    {
+      "name": "encryptedBlob",
+      "type": "blob",
+      "direction": "out",
+      "path": "public/test/gpg/test.csv.gpg",
+      "connection": "AzureWebJobsStorage"
+    }
+  ]
+}
